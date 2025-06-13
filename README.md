@@ -25,7 +25,7 @@ Ensinar como implementar autenticação básica com:
 
 1. Clone o repositório:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/olivalpaulino/autenticacao
    cd projeto1-login-basico
 2. Compile e rode a aplicação:
 ./mvnw spring-boot:run
