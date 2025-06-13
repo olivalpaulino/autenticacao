@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <title>Home - Minha Aplicação</title>
+</head>
+<body>
+<h1>Olá, <span sec:authentication="name">usuário</span>!</h1>
+<p>Você está autenticado no sistema.</p>
+
+<form th:action="@{/logout}" method="post">
+    <button type="submit">Sair</button>
+</form>
+</body>
+</html>
